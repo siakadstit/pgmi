@@ -1,0 +1,124 @@
+header
+    
+
+.navbar-right {
+    margin: 0 0 0 auto;
+}
+
+.navbar-brand {
+    font-family: Berkshire Swash;
+    margin-inline-end: 5mm;
+}
+
+.navbar-abdi {
+    font-weight: 500;
+    font-size: large;
+}
+
+.nav-link:hover {
+    font-weight: 900; 
+    background: yellowgreen;
+} 
+
+.navbar.scrolled {
+    background-color: yellow;
+}
+
+.jumbotron {
+    background: linear-gradient(to left, #dfdb03, darkgreen);
+    color: white;
+}
+.jumbotron h2 span {
+    color: rgb(255, 187, 0);
+}
+.medsos{
+    max-height: 50px;
+}
+
+#yayasan img {
+    max-height: 50px;
+}
+#yayasan a {
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+h4.kolaburasi::after {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 8px solid darkgreen;
+    width: 100px;
+    content: "";
+    border-radius: 25px;
+}
+
+.kaki {
+    font-family: Berkshire Swash;
+    background: linear-gradient(to left, rgb(252, 206, 3), darkgreen);
+    color: white;   
+}
+.kaki ul {
+    list-style-type: none;
+}
+.kaki h3 {
+    padding-left: 20px;
+}
+
+.link-light:hover { 
+    background-color: yellowgreen;
+    padding: 7px;
+    margin: 1px;
+}
+
+.gambarkontak {
+    border-radius: 25%;
+}
+
+#paujang {
+    width: 100px;
+}
+
+.kaprod {
+    background: linear-gradient(to left, #dfdb03, darkgreen);
+}
+
+.welcomespech:hover {
+    color: white;
+}
+
+.paujang {
+    width: 400px;
+    animation: geserpaujang 3s linear reverse forwards;
+}
+
+@keyframes geserpaujang {
+    0% {
+        margin-left: -50px;
+        position: static;
+    }
+    10% {
+        position: relative;
+    }   
+    90% {
+        margin-left: 900px; 
+        position: relative;
+    }
+    100% {
+        position: relative;
+    }
+}
+.welcome {
+    color: rgb(2, 59, 2);
+}
+.counter {
+    color: white;
+    background-color: darkgreen;
+}
+.count-heading {
+    border: 2px solid white;
+}
+.count {
+    font-size: 75px;
+}
